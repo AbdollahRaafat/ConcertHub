@@ -162,7 +162,7 @@ nav.lower-nav {
 /*part-2*/
 
 .current-concert {
-  background-image: url(../images/download.svg);
+  background-image: url('../images/download.svg');
   
   background-color: #272a31dc;
   color: white;
