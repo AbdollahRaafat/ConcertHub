@@ -1,16 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
-
 
 ul {
   list-style-type: none;
 }
 
 nav.navbar {
-  padding:4px 0 0 0;
+  padding: 4px 0 0 0;
   height: 30px;
 }
 
@@ -23,12 +22,30 @@ div.very-up-nav {
 #logo {
   font-size: 25px;
   font-weight: 700;
-  color:#ec5242;
-  font-family: 'COCOGOOSE';
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
+#logo-2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
 
+#logo-3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
 
+#logo-4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
 
 nav.lower-nav {
   height: 70px;
@@ -45,22 +62,18 @@ nav.lower-nav {
   font-weight: 900;
   text-transform: uppercase;
   width: 100%;
-  font-family: 'COCOGOOSE';
-
+  font-family: 'COCOGOOSE', sans-serif;
 }
-
 
 .welcoming-part {
   background-image: url('../images/x.png');
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
 
 .menu {
   border: none;
   background-color: #f3f3f4;
-
 }
 
 .menu-icon {
@@ -70,6 +83,14 @@ nav.lower-nav {
   margin: 4px 0;
 }
 
+.hov ul li a {
+  color: rgb(98, 98, 98);
+  font-weight: 900;
+}
+
+.hov ul li a:hover {
+  color: #ec5242;
+}
 
 #pop-list {
   margin: 0;
@@ -105,11 +126,6 @@ nav.lower-nav {
   color: #fafcfd;
   border: none;
   text-decoration: none;
-
-}
-
-#pop-list #pop-buttons-1 {
-  margin-top: 50px;
 }
 
 #pop-buttons-1 {
@@ -124,12 +140,13 @@ nav.lower-nav {
   text-decoration: none;
 }
 
-
+#pop-list #pop-buttons-1 {
+  margin-top: 50px;
+}
 
 .test {
   border: 1px solid rgba(0, 0, 0, 0.514);
 }
-
 
 #get-ticket-btn {
   background-color: #ec5242;
@@ -144,21 +161,11 @@ nav.lower-nav {
   font-family: "Cocogoose", sans-serif;
 }
 
-.hov ul li a:hover{
-  color: #ec5242;
-}
-
-.hov ul li a{
-  color: rgb(98, 98, 98);
-  font-weight: 900;
-}
-
 .current-concert {
   border-bottom: 0.5px solid rgb(207, 206, 206);
 }
 
-
-/*part-2*/
+/* part-2 */
 
 .head-2 {
   font-size: 1.2rem;
@@ -211,7 +218,7 @@ nav.lower-nav {
   font-size: 30px;
   font-weight: 900;
   color: #ec5242;
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .rights {

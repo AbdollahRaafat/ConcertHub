@@ -1,16 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
-
 
 ul {
   list-style-type: none;
 }
 
 nav.navbar {
-  padding:4px 0 0 0;
+  padding: 4px 0 0 0;
   height: 30px;
 }
 
@@ -23,14 +22,9 @@ div.very-up-nav {
 #logo {
   font-size: 25px;
   font-weight: 900;
-  color:#ec5242;
-  font-family: 'COCOGOOSE';
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
 }
-
-#pop-list {
-  width: 0;
-}
-
 
 nav.lower-nav {
   height: 70px;
@@ -42,7 +36,6 @@ nav.lower-nav {
 }
 
 .welcome-msg-2 {
-  color: #ec5242;
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
@@ -52,22 +45,18 @@ nav.lower-nav {
   -webkit-background-clip: text;
   color: transparent;
   width: 100%;
-
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
 }
-
 
 .welcoming-part {
   background-image: url('../images/main_big.png');
   background-repeat: no-repeat;
   background-size: cover;
- 
 }
 
 .menu {
   border: none;
   background-color: #f3f3f4;
-
 }
 
 .menu-icon {
@@ -75,6 +64,27 @@ nav.lower-nav {
   height: 3px;
   background-color: black;
   margin: 4px 0;
+}
+
+#pop-buttons-1 {
+  text-decoration: none;
+}
+
+#pop-buttons-2 {
+  text-decoration: none;
+}
+
+#pop-buttons-3 {
+  text-decoration: none;
+}
+
+.hov ul li a {
+  color: rgb(98, 98, 98);
+  font-weight: 900;
+}
+
+.hov ul li a:hover {
+  color: #ec5242;
 }
 
 #pop-list {
@@ -111,30 +121,15 @@ nav.lower-nav {
   color: #fafcfd;
   border: none;
   text-decoration: none;
-
 }
 
 #pop-list #pop-buttons-1 {
   margin-top: 50px;
 }
 
-#pop-buttons-1 {
-  text-decoration: none;
-}
-
-#pop-buttons-2 {
-  text-decoration: none;
-}
-
-#pop-buttons-3 {
-  text-decoration: none;
-}
-
-
 .test {
   border: 4px solid white;
 }
-
 
 #get-ticket-btn {
   background-color: #ec5242;
@@ -149,21 +144,10 @@ nav.lower-nav {
   font-family: "Cocogoose", sans-serif;
 }
 
-.hov ul li a:hover{
-  color: #ec5242;
-}
-
-.hov ul li a{
-  color: rgb(98, 98, 98);
-  font-weight: 900;
-}
-
-
-/*part-2*/
+/* part-2 */
 
 .current-concert {
   background-image: url('../images/download.svg');
-  
   background-color: #272a31dc;
   color: white;
 }
@@ -202,7 +186,7 @@ nav.lower-nav {
 }
 
 .curnt-card {
-  background-color: #626262de
+  background-color: #626262de;
 }
 
 .more-anch {
@@ -221,11 +205,10 @@ nav.lower-nav {
   background-size: cover;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .rights {
   color: black;
   font-size: 1rem;
-
 }
