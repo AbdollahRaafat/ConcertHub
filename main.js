@@ -80,7 +80,6 @@ const singers = [
 
 ];
 
-
 const singerProfile = document.querySelector('.f-singers');
 
 function createSinger(item) {
@@ -95,10 +94,4 @@ function createSinger(item) {
           </div>`;
 }
 
-
-
-
-
-
 singerProfile.innerHTML = singers.map((item) => createSinger(item)).join('');
-
