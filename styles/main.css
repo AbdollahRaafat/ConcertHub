@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+nav.navbar {
+  padding:4px 0 0 0;
+  height: 30px;
+}
+
+div.very-up-nav {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#logo {
+  font-size: 25px;
+  font-weight: 900;
+  color:#ec5242;
+  font-family: 'COCOGOOSE';
+}
+
+#logo:hover {
+  font-size: 30px;
+ }
+
+
+nav.lower-nav {
+  height: 70px;
+  background-color: white;
+}
+
+.welcome-msg {
+  color: #ec5242;
+}
+
+.welcome-msg-2 {
+  color: #ec5242;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-image: url('/images/orange.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 100%;
+
+  font-family: 'COCOGOOSE';
+}
+
+
+.welcoming-part {
+  background-image: url('/images/main_big.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.menu {
+  border: none;
+  background-color: #f3f3f4;
+
+}
+
+.menu-icon {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.test {
+  border: 4px solid white;
+}
+
+
+#get-ticket-btn {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.concert-time {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Cocogoose", sans-serif;
+}
+
+.hov ul li a:hover{
+  color: #ec5242;
+}
+
+.hov ul li a{
+  color: rgb(98, 98, 98);
+  font-weight: 900;
+}
+
+
+/*part-2*/
+
+.current-concert {
+  background-image: url(/images/download.svg);
+  
+  background-color: #272a31dc;
+  color: white;
+}
+
+.head-2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.head-3 {
+  font-size: 2.125rem;
+  font-weight: bold;
+}
+
+.line {
+  height: 2px;
+  width: 40px;
+  background-color: #ec5242;
+  left: 49%;
+  position: relative;
+}
+
+.line-2 {
+  left: 4%;
+  background-color: #757575;
+}
+
+.program-title {
+  color: #ec5242;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.program-text {
+  font-size: 0.9rem;
+}
+
+.curnt-card {
+  background-color: #626262de
+}
+
+.more-anch {
+  font-size: larger;
+}
+
+.partners {
+  background-color: #272a31;
+}
+
+#logo-2 {
+  font-size: 30px;
+  font-weight: 900;
+  background-image: url('/images/orange.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'COCOGOOSE';
+}
+
+.rights {
+  color: black;
+  font-size: 1rem;
+
+}
