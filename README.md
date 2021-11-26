@@ -8,7 +8,7 @@ This is my final project for HTML & CSS MODULE ONE from the microverse curriculu
 
 This is a mobile version of my portfolio.
 
-![screenshot](images/Capture-2.PNG)
+![screenshot](images/Capture-1.PNG)
 
 
 This project is meant to test student ability's on being able to put together all that they have learnt in a module to ensure they mastered it well.
