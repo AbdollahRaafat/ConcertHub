@@ -46,7 +46,7 @@ nav.lower-nav {
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
-  background-image: url('/images/orange.jpeg');
+  background-image: url('../images/orange.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
@@ -58,7 +58,7 @@ nav.lower-nav {
 
 
 .welcoming-part {
-  background-image: url('/images/main_big.png');
+  background-image: url('../images/main_big.png');
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -162,7 +162,7 @@ nav.lower-nav {
 /*part-2*/
 
 .current-concert {
-  background-image: url(/images/download.svg);
+  background-image: url(../images/download.svg);
   
   background-color: #272a31dc;
   color: white;
@@ -216,7 +216,7 @@ nav.lower-nav {
 #logo-2 {
   font-size: 30px;
   font-weight: 900;
-  background-image: url('/images/orange.jpeg');
+  background-image: url('../images/orange.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;

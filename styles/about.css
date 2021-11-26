@@ -51,7 +51,7 @@ nav.lower-nav {
 
 
 .welcoming-part {
-  background-image: url('/images/x.png');
+  background-image: url('./images/x.png');
   background-repeat: no-repeat;
   background-size: cover;
  

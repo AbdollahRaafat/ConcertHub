@@ -36,7 +36,7 @@ const singers = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
      sed do eiusmod tempor Lorem ipsum dolor sit amet,
      consectetur adipiscing elit, sed do eiusmod tempor.`,
-    image: '/images/adel.jpg',
+    image: './images/adel.jpg',
     
   },
 
@@ -45,7 +45,7 @@ const singers = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
      sed do eiusmod tempor Lorem ipsum dolor sit amet,
      consectetur adipiscing elit, sed do eiusmod tempor.`,
-    image: '/images/kanyeWest.jpg',
+    image: './images/kanyeWest.jpg',
     
   },
 
@@ -54,7 +54,7 @@ const singers = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
      sed do eiusmod tempor Lorem ipsum dolor sit amet,
      consectetur adipiscing elit, sed do eiusmod tempor.`,
-    image: '/images/weekend.png',
+    image: './images/weekend.png',
 
   },
 
@@ -63,7 +63,7 @@ const singers = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
      sed do eiusmod tempor Lorem ipsum dolor sit amet,
      consectetur adipiscing elit, sed do eiusmod tempor.`,
-    image: '/images/drake.png',
+    image: './images/drake.png',
     
   },
 
@@ -72,7 +72,7 @@ const singers = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
      sed do eiusmod tempor Lorem ipsum dolor sit amet,
      consectetur adipiscing elit, sed do eiusmod tempor.`,
-    image: '/images/billieeilish.jpg',
+    image: './images/billieeilish.jpg',
     
   },
 
@@ -81,7 +81,7 @@ const singers = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
      sed do eiusmod tempor Lorem ipsum dolor sit amet,
      consectetur adipiscing elit, sed do eiusmod tempor.`,
-    image: '/images/harry.jfif',
+    image: './images/harry.jfif',
     
   },
 
