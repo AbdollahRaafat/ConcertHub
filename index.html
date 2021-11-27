@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concert-Hub</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font laro family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+<link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+
+</head>
+
+<body id="body">
+
+  <header>
+      <!--  Desktop-Navbar -->
+        <!-- Upper Navbar -->
+      <nav class="navbar navbar-expand-md bg-dark upper-navbar d-none d-md-block">
+        <div class="container d-flex justify-content-end very-up-nav">
+          <div class="d-flex">
+            <ul class="d-flex">
+              <li class="me-3 ">
+                <i class="fab fa-facebook-f header-social-links"></i>
+                </svg>
+              </li>
+              <li>
+                <i class="fab fa-twitter header-social-links"></i>
+                </svg>
+              </li>
+            </ul>
+            <ul class="d-flex">
+              <li class="me-3 top-header-links">English</li>
+              <li class="me-3 top-header-links">My Page</li>
+              <li class="top-header-links">Logout</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <!-- Lower Navbar -->
+        
+      <nav class="navbar navbar-expand-md bg-light hov border border-bottom border-white lower-nav d-none d-md-block">
+        <div class="container">
+          <div class="navbar-collapse mt-2">
+            <a href="index.html" class="navbar-brand" id="logo">Concert-Hub</a>
+
+            <ul class="navbar-nav ms-auto" >
+              <li class="nav-item" >
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Events</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">join</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">News</a>
+              </li>
+              </li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+  </header>
+    
+
+  <div class="container">
+      <ul id="pop-list">
+          <li>
+            <div  class="d-flex here">
+              <a href="index.html" class="menu-logo mt-5 " id="logo" >Concert-Hub</a>
+              <a href="#" id="close-Icon">&times;</a>
+            </div>
+            
+          </li>
+          <li>
+              <a href="about.html" id="pop-buttons-1">About</a>
+          </li>
+          <li>
+              <a href="#" class="" id="pop-buttons-2">Events</a>
+          </li>
+          <li>
+              <a href="#" class="" id="pop-buttons-3">News</a>
+          </li>
+      </ul>
+      
+  </div>
+
+
+    <!-- ShowCase section -->
+
+  <main>
+    <section class="bg-light welcoming-part">
+      <div class="px-5 pt-5 d-md-none ">
+        <button class="menu" id="menu-id">
+          <p class="menu-icon"></p>
+          <p class="menu-icon"></p>
+          <p class="menu-icon"></p>
+        </button>
+      </div>
+      <div class="container pt-5">
+        <h1 class="welcome-msg">"Hello! Concerts lovers"</h1>
+        <h2 class="welcome-msg-2">Concert Hub. 
+          A place to get your ticket for any concerts.</h2>
+      </div>
+
+      <div class="container">
+        <p class="test p-2"> Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore
+           </p>
+      </div>
+      <div class="program-schedule container">
+        <h4 class="concert-time">2022.1.10(MON) ~ 2022.5.27(FRI)</h4>
+        <p>@ Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <button type="button" class="btn mb-5" id="get-ticket-btn">Get Your Ticket</button>
+      </div>
+
+    </section>
+
+    <section class="current-concert p-5 text-center">
+      <h2 class="head-2 pb-1">Available concerts</h2>
+      
+      <div class="line"></div>
+
+      <div class="container p-0">
+        <div class="row">
+          
+          <div class="col-md curnt-card m-3 ">
+            <i class="fas fa-record-vinyl bars-fw1 bars-fw1-bold h5 pt-3"></i>
+            <h6 class="program-title p-3">lorem side</h6>
+            <p class="program-text pb-2">Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor </p>
+          </div>
+
+          <div class="col-md curnt-card  m-3">
+            <i class="fas fa-microphone bars-fw1 bars-fw1-bold h5 pt-3"></i>
+            <h6 class="program-title p-3">lorem side</h6>
+            <p class="program-text pb-2">Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor </p>
+          </div>
+
+          <div class="col-md curnt-card m-3">
+            <i class="fas fa-guitar bars-fw1 bars-fw1-bold h5  pt-3"></i>
+            <h6 class="program-title p-3 ">lorem side</h6>
+            <p class="program-text pb-2">Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor </p>
+          </div>
+
+          <div class="col-md curnt-card m-3">
+            <i class="fas fa-music bars-fw1 bars-fw1-bold h5 pt-3"></i>
+            <h6 class="program-title p-3">lorem side</h6>
+            <p class="program-text pb-2">Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor </p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="more-anch link-light d-block pt-5">More programs..!</a>
+
+    </section>
+
+    <section class="singers my-5">
+      <h2 class="head-2 text-center">Featured singers</h2>
+      
+      <div class="line"></div>
+
+      <div class="container pt-5">
+        <div class="row f-singers">
+
+          
+        </div>
+      </div>
+
+    </section>
+
+    <section class="partners text-light p-5 text-center">
+      <h2 class="head-2 head-3 pb-1">Partners</h2>
+      
+      <div class="line"></div>
+
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md m-2 ">
+            <img src="./images/Steal.png" alt="">
+          </div>
+
+          <div class="col-md m-2 ">
+            <img src="./images/funky.jfif" alt="" style="width: 250px;">
+          </div>
+
+          <div class="col-md m-2">
+            <img src="./images/Steal.png" alt="">
+          </div>
+
+          <div class="col-md m-2 ">
+            <img src="./images/funky.jfif" alt="" style="width: 250px;">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
+  
+  <footer>
+    
+    <div class=" d-flex justify-content-around m-5 ">
+      <span class="logo" id="logo-2">Concert-Hub</span>
+      <small class="rights">© Concert-Hub 2021. Some Rights</small>
+    </div>
+  </footer>
+
+
+    
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script></body>
+    <script src="main.js"></script>
+
+</html>

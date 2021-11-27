@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav.navbar {
+  padding: 4px 0 0 0;
+  height: 30px;
+}
+
+div.very-up-nav {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#logo-2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#logo-3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+#logo-4 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+nav.lower-nav {
+  height: 70px;
+  background-color: white;
+}
+
+.welcome-msg {
+  color: #ec5242;
+}
+
+.welcome-msg-2 {
+  color: #ec5242;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.welcoming-part {
+  background-image: url('../images/x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  border: none;
+  background-color: #f3f3f4;
+}
+
+.menu-icon {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.hov ul li a {
+  color: rgb(98, 98, 98);
+  font-weight: 900;
+}
+
+.hov ul li a:hover {
+  color: #ec5242;
+}
+
+#pop-list {
+  margin: 0;
+  background-color: #ec5242;
+  height: 100%;
+  display: none;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.4s;
+  opacity: 93%;
+  overflow: hidden;
+}
+
+#pop-list li a {
+  color: #fff5e1;
+  padding: 14px 16px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 44px;
+  display: block;
+  margin-top: 0;
+}
+
+#pop-list #close-Icon {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  font-size: 36px;
+  color: #fafcfd;
+  border: none;
+  text-decoration: none;
+}
+
+#pop-buttons-1 {
+  text-decoration: none;
+}
+
+#pop-buttons-2 {
+  text-decoration: none;
+}
+
+#pop-buttons-3 {
+  text-decoration: none;
+}
+
+#pop-list #pop-buttons-1 {
+  margin-top: 50px;
+}
+
+.test {
+  border: 1px solid rgba(0, 0, 0, 0.514);
+}
+
+#get-ticket-btn {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.concert-time {
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Cocogoose", sans-serif;
+}
+
+.current-concert {
+  border-bottom: 0.5px solid rgb(207, 206, 206);
+}
+
+/* part-2 */
+
+.head-2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+.head-3 {
+  font-size: 2.125rem;
+  font-weight: bold;
+}
+
+.line {
+  height: 2px;
+  width: 40px;
+  background-color: #ec5242;
+  left: 49%;
+  position: relative;
+}
+
+.line-2 {
+  left: 4%;
+  background-color: #757575;
+}
+
+.program-title {
+  color: #ec5242;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.program-text {
+  font-size: 0.9rem;
+}
+
+.curnt-card {
+  border: 1px solid black;
+}
+
+.more-anch {
+  font-size: larger;
+}
+
+.partners {
+  background-color: #272a31;
+}
+
+.rights {
+  font-size: 1rem;
+}
+
+.concerts-version {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
