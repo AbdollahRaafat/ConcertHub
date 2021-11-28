@@ -20,8 +20,6 @@ This project is meant to test student ability's on being able to put together al
 - JAVASCRIPT
 - Bootstrap
 
-Here's a [video ](https://www.loom.com/share/72996f1f6fd44259b026715ded69c878)  of the project description.
-
 ## Live Demo
 
 [Live Demo Link](https://abdollahraafat.github.io/ConcertHub/)
